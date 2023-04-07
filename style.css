@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  #hero {
+    background-image: url("https://picsum.photos/id/1024/1200/400");
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+  }
+  
+  #hero h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  #about {
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact {
+    background-color: #eee;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10
+  }
